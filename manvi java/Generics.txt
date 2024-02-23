@@ -1,0 +1,32 @@
+class Gener<T>
+{
+	T ob;
+	Gener(T o)
+	{
+	   ob=o;
+	}
+	   
+	void showType()
+	{
+		System.out.println(ob.getClass.getName);
+	}
+	T retObj()
+	{
+	   return ob;
+	}
+}
+
+class Generics
+{
+		
+		public static void main(String [] args)
+		{
+			Gener<Integer> g1 = new Gener<Integer>(100);
+			g1.showtype();
+			int x = g1.retObj();		
+			System.out.println(x);
+
+
+		}
+}
+			
